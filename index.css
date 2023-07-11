@@ -21,7 +21,8 @@
   padding: 15px 30px;
   background-color: #e55473;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 600;
   border: none;
   outline: none;
   text-align: center;
@@ -56,7 +57,6 @@ header {
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 30px;
-
 }
 
 .header-item-two {
@@ -69,4 +69,107 @@ header {
 
 /* header end */
 
+/* main start  */
 
+/* first section start */
+
+.main-first-section {
+  margin-top: 150px;
+  text-align: center;
+  line-height: 2;
+}
+.first-section-header {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.first-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px !important;
+}
+.first-section-anchor {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+.first-section-items {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.first-section-image {
+  width: 370px;
+  height: 370px;
+  padding: 80px 80px 0px 80px;
+  border-radius: 50% 50% 0 0;
+  margin: 30px 0;
+}
+.fs-image-one {
+  background-color: #a7216226;
+}
+.fs-image-two {
+  background-color: #0597a026;
+}
+.fs-image-three {
+  background-color: #477d1126;
+}
+/* first section end */
+
+/* second section start */
+.main-second-section {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 100px;
+  padding: 60px;
+}
+.second-section-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  line-height: 2.5;
+}
+/* second section end */
+
+/* third section start */
+.main-third-section {
+  margin: 100px 0;
+  padding: 80px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.third-section-items {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  justify-content: center;
+  text-align: center;
+}
+.third-section-heading {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.third-section-description {
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom: 20px;
+
+}
+
+/* third section end */
