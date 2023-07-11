@@ -163,13 +163,43 @@ header {
   margin-bottom: 20px;
 }
 .third-section-description {
-    color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-margin-bottom: 20px;
-
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 
 /* third section end */
+
+/* fourth section start */
+.main-fourth-section {
+  margin-bottom: 100px;
+}
+.fourth-section-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.fourth-section-item {
+  width: 300px;
+}
+.fourth-section-item > img {
+  width: 100%;
+}
+.fourth-section-heading {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.fourth-section-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 40px 0;
+}
+/* fourth section end */
